@@ -50,3 +50,20 @@ docker run --name myapp -d -p 80:80 raam043/web-paint
 docker ps -a
 ```
 
+## Stop Running Containers
+```sh
+docker stop <CONTAINER_ID>
+```
+
+## Remove / Delete Containers
+```sh
+docker rm <CONTAINER_ID>
+```
+
+## Stop and Remove all at same time
+```sh
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+```
+
+
