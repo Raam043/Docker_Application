@@ -35,7 +35,7 @@ docker search nginx
 docker pull raam043/web-paint
 ```
 
-Check Downloaded Docker Images and container ( Docker images && docker ps -a)
+Check Downloaded Docker Images and container ( Docker images & docker ps -a)
 
 Before running the container check the 80 port. (Open new tab and paste server public IP address)
 
