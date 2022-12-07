@@ -30,3 +30,14 @@ docker ps -a
 docker search nginx
 ```
 
+## Download Docker image from Hub
+```sh
+docker pull raam043/web-paint
+```
+
+## Check Downloaded Docker Images
+```sh
+docker images -a
+docker ps -a
+```
+
