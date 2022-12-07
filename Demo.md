@@ -1,7 +1,7 @@
 # Docker Installation on AWS - EC2 server
 
 
-##Installation commands
+## Installation commands
 
 ```sh
 yum udpate -y
