@@ -24,3 +24,9 @@ docker images -a
 ```sh
 docker ps -a
 ```
+
+## Download Docker Images from DockerHub (Search specific images or use below images for test)
+```sh
+docker search nginx
+```
+
