@@ -1,3 +1,9 @@
+# Docker
+
+![Docker work flow](https://user-images.githubusercontent.com/111989928/206645113-a02cba0f-6214-490a-856a-350da9f8567d.png)
+
+
+
 # Docker Installation on AWS - EC2 server
 
 
