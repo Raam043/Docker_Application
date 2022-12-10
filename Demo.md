@@ -84,4 +84,9 @@ docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 ```
 
+## Remove all docker images at same time
+```sh
+docker rmi $(docker images -q)
+```
+
 
