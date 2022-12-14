@@ -10,7 +10,7 @@ docker image pull <image_name>:<image_version/tag>
 
 3. List out docker images from your local system
 ```sh
-docker image ls
+docker images
 ```
 
 4. Create/run/start a docker container from image
