@@ -3,6 +3,8 @@
 
 ![image](https://user-images.githubusercontent.com/111989928/212470292-f16df78d-3ec4-4003-bba4-f85994b0f418.png)
 
+Docker Swarm is a group of either physical or virtual machines that are running the Docker application and that have been configured to join together in a cluster.
+The activities of the cluster are controlled by a swarm manager, and machines that have joined the cluster are referred to as nodes.
 
 ## 1 Release Amazon Linux server and install Docker
 
