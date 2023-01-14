@@ -27,3 +27,8 @@ Run below command on Master with Public IP
 ```sh
 docker swarm init --advertise-addr 18.224.202.231
 ```
+Run nodes list
+```sh
+docker node ls
+```
+
