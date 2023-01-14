@@ -19,5 +19,6 @@ cat /root/.ssh/id_rsa.pub>>/root/.ssh/authorized_keys
 chmod 755 /root/.ssh/authorized_keys
 ```
 
-### 3 Create AMI (Amazon Machine Image) for Copy the server
+## 3 Create AMI (Amazon Machine Image) for Copy the server
 
+## Docker swarm init (After AMI + slave servers )
