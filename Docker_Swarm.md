@@ -14,4 +14,8 @@ pip install docker-py
 ```sh
 ssh-keygen
 ```
+```sh
+cat /root/.ssh/id_rsa.pub>>/root/.ssh/authorized_keys
+chmod 755 /root/.ssh/authorized_keys
+```
 
