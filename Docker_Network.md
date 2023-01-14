@@ -10,3 +10,7 @@ For view the list of networks
 ```sh
 docker network ls
 ```
+[Optional] For more details about your network
+```sh
+docker network inspect my_network
+```
