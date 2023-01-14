@@ -1,5 +1,9 @@
 # Docker Swarm
 
+
+![image](https://user-images.githubusercontent.com/111989928/212470292-f16df78d-3ec4-4003-bba4-f85994b0f418.png)
+
+
 ## 1 Release Amazon Linux server and install Docker
 
 ```sh
