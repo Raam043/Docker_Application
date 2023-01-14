@@ -31,4 +31,12 @@ Run nodes list
 ```sh
 docker node ls
 ```
+Run below command for generate code to join nodes 
+```sh
+docker swarm join-token worker
+```
+![image](https://user-images.githubusercontent.com/111989928/212469584-436cd7fb-c285-49f7-a443-dff202377c49.png)
+
+You will get one code and run it on nodes / slaves to join with Master
+
 
