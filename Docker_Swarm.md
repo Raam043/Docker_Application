@@ -55,5 +55,10 @@ docker swarm
 ## 5 Run Docker Containers using docker swarm
 
 ```sh
-ocker service create --replicas 3 -p 80:80 --name
+ocker service create --replicas 3 -p 80:80 --name myapp raam043/nginx
+```
+
+Run the list of services
+```sh
+docker service ls
 ```
