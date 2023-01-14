@@ -19,3 +19,5 @@ cat /root/.ssh/id_rsa.pub>>/root/.ssh/authorized_keys
 chmod 755 /root/.ssh/authorized_keys
 ```
 
+### 3 Create AMI (Amazon Machine Image) for Copy the server
+
