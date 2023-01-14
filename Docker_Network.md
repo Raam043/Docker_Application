@@ -24,3 +24,11 @@ Running Web Application image with default network
 ```sh
 docker run -d --name web test/webapp python app.py
 ```
+View IP address of database container
+```sh
+docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' db
+```
+View IP address of web container
+```sh
+docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' web
+```
