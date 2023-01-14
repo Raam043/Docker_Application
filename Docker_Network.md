@@ -6,3 +6,7 @@ Create own network
 ```sh
 docker network create -d bridge my_network
 ```
+For view the list of networks
+```sh
+docker network ls
+```
