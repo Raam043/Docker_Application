@@ -39,4 +39,6 @@ docker swarm join-token worker
 
 You will get one code and run it on nodes / slaves to join with Master
 
+Node joined to Master
+![image](https://user-images.githubusercontent.com/111989928/212469619-a157fd97-8341-4fd8-9a61-ff436ed2779d.png)
 
