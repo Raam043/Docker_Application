@@ -11,4 +11,7 @@ yum install pip -y
 pip install docker-py
 ```
 ## 2 Enable password less authentication through SSH Commands :
+```sh
+ssh-keygen
+```
 
