@@ -62,3 +62,6 @@ Run the list of services
 ```sh
 docker service ls
 ```
+```sh
+docker service ps
+```
