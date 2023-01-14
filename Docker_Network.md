@@ -39,3 +39,12 @@ docker container exec -it db bash
 ```
 after entering on db container type `ping web` you get error becuase web running on diffrent network
 
+Now connect the web container with db 
+```sh
+docker network connect my_network web
+```
+Now ping the web container on my_network using db container
+```sh
+docker container exec -it db bash
+```
+
