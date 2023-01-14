@@ -21,4 +21,9 @@ chmod 755 /root/.ssh/authorized_keys
 
 ## 3 Create AMI (Amazon Machine Image) for Copy the server
 
-## Docker swarm init (After AMI + slave servers )
+## 4 Docker swarm init (After AMI + slave servers )
+
+Run below command on Master with Public IP
+```sh
+docker swarm init --advertise-addr 18.224.202.231
+```
