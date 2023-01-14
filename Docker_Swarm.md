@@ -69,3 +69,7 @@ docker service ps
 ```sh
 docker service myapp=2
 ```
+## 7 Stop / Remove Docker services
+```sh
+docker service rm myapp
+```
