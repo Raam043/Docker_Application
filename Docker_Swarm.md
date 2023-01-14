@@ -65,3 +65,7 @@ docker service ls
 ```sh
 docker service ps
 ```
+## 6 Scale up and down
+```sh
+docker service myapp=2
+```
