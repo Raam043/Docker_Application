@@ -47,4 +47,4 @@ Now ping the web container on my_network using db container
 ```sh
 docker container exec -it db bash
 ```
-
+`ping web` ===> you will see the results
