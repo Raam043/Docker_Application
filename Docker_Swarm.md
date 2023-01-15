@@ -73,7 +73,7 @@ docker service ps
 ```
 ## 6 Scale up and down
 ```sh
-docker service myapp=2
+docker service scale myapp=2
 ```
 ## 7 Stop / Remove Docker services
 ```sh
