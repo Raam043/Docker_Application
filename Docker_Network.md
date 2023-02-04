@@ -33,18 +33,4 @@ View IP address of web container
 ```sh
 docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' web
 ```
-Ping Web on DB container
-```sh
-docker container exec -it db bash
-```
-after entering on db container type `ping web` you get error becuase web running on diffrent network
-
-Now connect the web container with db 
-```sh
-docker network connect my_network web
-```
-Now ping the web container on my_network using db container
-```sh
-docker container exec -it db bash
-```
-`ping web` ===> you will see the results
+Now see the results of private network ip address.
