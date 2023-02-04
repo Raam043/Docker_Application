@@ -33,4 +33,8 @@ View IP address of web container
 ```sh
 docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' web
 ```
+Connect web container with private network
+```sh
+docker network connect my_network web
+```
 Now see the results of private network ip address.
