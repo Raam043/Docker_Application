@@ -19,11 +19,11 @@ docker network inspect my_network
 ```
 Running Database Container image with your network
 ```sh
-docker run -d --net=my_network --name db test/postgres
+docker run -d --net=my_network --name db tes
 ```
 Running Web Application image with default network
 ```sh
-docker run -d --name web test/webapp python app.py
+docker run -d --name web raam043/nginx
 ```
 View IP address of database container
 ```sh
