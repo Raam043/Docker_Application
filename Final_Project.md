@@ -17,6 +17,7 @@ amazon-linux-extras install java-openjdk11 -y
 yum install jenkins -y
 systemctl enable jenkins
 systemctl start jenkins
+sudo chmod 666 /var/run/docker.sock
 ```
 
 ## Upload the application on GitHub account to use it on jenkins pipeline
