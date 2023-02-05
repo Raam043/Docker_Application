@@ -1,4 +1,4 @@
-# End to End Docker uses
+# Docker 
 
 
 ## Installation on server
